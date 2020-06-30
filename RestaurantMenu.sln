@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{E04768F9-6949-4C87-9361-B6B3E00AF265}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantMenu", "Menu\RestaurantMenu.csproj", "{E04768F9-6949-4C87-9361-B6B3E00AF265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
