@@ -20,16 +20,13 @@ namespace RestaurantMenu
             DateCreated = DateTime.Now;
         }
 
-        public virtual void UpdateMenuItem()
+        public void UpdateMenuItem()
         {
-            // Item becomes old after a year
             DateTime now =  DateTime.Now;
             if ((now.Month - DateCreated.Month) % 12 > 1)
             {
                 IsItemNew = false;          
             }
-        }
-
-     
+        }    
     }
 }
